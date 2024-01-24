@@ -26,10 +26,6 @@ public class EmployeeController {
     public EmployeeDto createEmployee(@RequestBody EmployeeDto employee) {
         return employeeService.save(employee);
     }
-    //Endpoint to get all employees who work in infra team
-
-    //Endpoint to add roles for all employees, by default all are developers but employees in customer team are support-agents
-
     //Endpoint to list all developers by team
 
 }
