@@ -25,5 +25,5 @@ curl http://localhost:8080/employees \
     --include \
     --header "Content-Type: application/json" \
     --request "POST" \
-    --data '{"id": "P020", "name": "Smith John", "team": "Payment"}'
+    --data '{"id": "P011", "name": "Jack", "team": "Payment", "role":"developer"}'
 ```

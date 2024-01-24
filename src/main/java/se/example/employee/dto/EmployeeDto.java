@@ -11,6 +11,7 @@ public class EmployeeDto{
     private String id;
     private String name;
     private String team;
+    private String role;
 
     public String getId() {
         return id;
@@ -34,5 +35,13 @@ public class EmployeeDto{
 
     public void setTeam(String team) {
         this.team = team;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
     }
 }
